@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - K-Verse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        header {
+            background-color: #FFD1F5;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }       
+
+        header h1 {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 30px;
+            font-weight: bold;
+            margin: 0;
+            color: #FFFDF2;
+        }
+
+        header h1 a {
+            color: black;
+            text-decoration: none;
+        }
+
+        header nav {
+            margin-top: 20px;
+        }
+
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        header nav li {
+            margin-right: 60px;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        header nav a:hover {
+            color: #ccc;
+        }
+
+        main {
+            display: inline-block; 
+            text-align: left;
+            width: 80%;
+            margin: 20px auto; 
+            padding: 20px;
+            background-color: #FFFDF2;
+            border: 1px solid #FFFDF2;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        main h2 {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        main p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: black;
+        }
+
+        form {
+            background-color: #FFFCF9; /* Light background for the form */
+            padding: 20px; /* Padding for spacing */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+    
+        form .form-group {
+            margin-bottom: 15px;
+        }
+    
+        label {
+            font-weight: bold; /* Bold labels */
+            color: #333; /* Dark color for contrast */
+        }
+    
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%; /* Full width */
+            padding: 10px; /* Padding inside the inputs */
+            border: 1px solid #ccc; /* Border for input fields */
+            border-radius: 5px; /* Rounded corners */
+            font-size: 16px; /* Increase font size */
+            transition: border-color 0.3s; /* Transition for border color */
+        }
+    
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        textarea:focus {
+            border-color: #FF87E5; /* Change border color on focus */
+            outline: none; /* Remove default outline */
+        }
+    
+        textarea {
+            resize: vertical; /* Allow vertical resizing only */
+        }
+
+        footer {
+            background-color: #FFD1F5;
+            color: #fff;
+            padding: 20px;
+            text-align: left;
+            border-top: 1px solid #ccc;
+        }
+
+        footer p {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .button {
+            background-color: #FF87E5;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 10px;
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+
+        .button:hover {
+            background-color: #e075b1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="kverse1.html">K-Verse</a></h1>
+        <nav>
+            <ul>
+                <li><strong><a href="kverse1.html">Home</a></strong></li>
+                <li><strong><a href="kverse2.html">Music</a></strong></li>
+                <li><strong><a href="kverse3.html">Events</a></strong></li>
+                <li><strong><a href="kverse4.html">Merchandise</a></strong></li>
+                <li><strong><a href="kverse5.html">Contact Us</a></strong></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Us</h2>
+        <p>If you have any questions, comments, or concerns, please fill out the form below or reach out to us through our contact information!</p>
+    
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" class="form-control" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="button">Send Message</button>
+        </form>
+    
+        <h3>Contact Information</h3>
+        <p><a href="mailto:angellejosher@gmail.com">angellejosher@gmail.com</a> | 0526 Carat St, Seventeen, South Korea | +63 918 562 0743</p>
+    </main>    
+    <footer>
+        <p>&copy; 2024 K-Verse. All rights reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

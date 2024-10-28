@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>K-VERSE</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      color: #ffffff;
+      background-image: url('hp.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .overlay {
+      position: absolute; 
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(50, 50, 50, 0.6);
+      z-index: 1;
+    }
+
+    .content {
+      max-width: 1100px;
+      padding: 5px;
+      position: relative;
+      border-radius: 10px;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: -1in;
+    }
+
+    .title {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 2.7rem;
+      color: #ffffff;
+      text-transform: uppercase;
+      margin: 20px 0;
+      text-align: left;
+    }
+
+    .title2 {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 8rem;
+      color: #FFD1F5;
+      text-transform: uppercase;
+      margin: 20px 0;
+      text-align: left;
+    }
+
+    .description {
+      font-size: 1.2rem;
+      color: #ffffff;
+      line-height: 1.5;
+      margin: 10px 0;
+      text-align: left;
+    }
+
+    .button {
+      padding: 15px 30px;
+      font-family: 'Press Start 2P', cursive;
+      font-size: 1rem;
+      background-color: #FF87E5;
+      color: #ffffff;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 25px;
+      text-align: center;
+      margin: 20px auto;
+      transition: background-color 0.3s ease;
+      display: block;
+      width: 300px;
+    }
+
+    .footer {
+      height: 1in; 
+      background-color: #FFD1F5; 
+      width: 100%; 
+      position: absolute;
+      bottom: 0;
+      left: 0; 
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+      z-index: 2; 
+    }
+
+    .button:hover {
+      background-color: #ffacff;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="overlay"></div> 
+  
+  <div class="content">
+    <h1 class="title">Welcome to</h1>
+    <h1 class="title2">K-Verse</h1>
+    <p class="description">
+      Immerse yourself in the future of K-pop with K-VERSE. This is your ultimate destination for everything K-pop! Stay ahead of the curve with the latest music, breaking news, and exclusive concert updates from your favorite idols. Dive into our vibrant fan community, where you can connect, share fan art, and experience the electric energy of the K-pop universe.
+    </p>
+    <p class="description">
+      Discover new releases, join fan events, and explore a galaxy of content in a sleek, futuristic design that transports you to the forefront of K-pop culture. Whether you’re looking for the newest tracks or preparing for an upcoming concert, K-VERSE is the hub where fandom and innovation collide. Step into the future and experience K-pop like never before!
+    </p>
+  </div>
+
+  <footer class="footer">
+    <a href="kverse2.html" class="button">Explore K-verse</a>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
